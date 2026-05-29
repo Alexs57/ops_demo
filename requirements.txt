@@ -1,0 +1,9 @@
+# OPS-Bench / OPACT runtime dependencies.
+#
+# Verified to run with torch 2.7.1, numpy 2.2.6, scipy 1.15.3.
+# torch is left unpinned to a single wheel on purpose: the correct build
+# depends on your CPU/CUDA platform. Install torch from https://pytorch.org to
+# match your machine, then `pip install -r requirements.txt` for the rest.
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
